@@ -1,6 +1,7 @@
 package net.haruzinho.medsandpills;
 
 import com.mojang.logging.LogUtils;
+import effects.ModEffects;
 import net.haruzinho.medsandpills.itens.ModCreativeModeTabs;
 import net.haruzinho.medsandpills.itens.ModItems;
 import net.mcreator.medsandherbs.MedsAndHerbsMod;
@@ -29,6 +30,7 @@ public class MedsAndPills {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.ITEMS.register(modEventBus);
+        ModEffects.EFFECTS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
