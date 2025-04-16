@@ -1,6 +1,7 @@
 package net.haruzinho.medsandpills;
 
 import com.mojang.logging.LogUtils;
+import net.haruzinho.medsandpills.itens.ModCreativeModeTabs;
 import net.haruzinho.medsandpills.itens.ModItems;
 import net.mcreator.medsandherbs.MedsAndHerbsMod;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -24,6 +25,8 @@ public class MedsAndPills {
 
     public MedsAndPills() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.ITEMS.register(modEventBus);
 
