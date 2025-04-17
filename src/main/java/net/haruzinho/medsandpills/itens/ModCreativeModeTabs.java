@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.medsandpills_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.EMPTY_PILL.get());
+                        pOutput.accept(ModItems.ANALGESIC_PILL.get());
                     })
                     .build());
 

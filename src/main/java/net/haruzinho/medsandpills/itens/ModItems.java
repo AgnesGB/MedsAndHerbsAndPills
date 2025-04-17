@@ -1,6 +1,7 @@
 package net.haruzinho.medsandpills.itens;
 
 import net.haruzinho.medsandpills.MedsAndPills;
+import net.haruzinho.medsandpills.itens.custom.PainKillerPill;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,6 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     //analgesico stuff
+    public static final RegistryObject<Item> ANALGESIC_PILL = ITEMS.register("analgesic_pill",
+            () -> new PainKillerPill(new Item.Properties().stacksTo(16)));
 
     //plantas novas:
 
