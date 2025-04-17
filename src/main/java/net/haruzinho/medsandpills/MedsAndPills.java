@@ -1,10 +1,9 @@
 package net.haruzinho.medsandpills;
 
 import com.mojang.logging.LogUtils;
-import effects.ModEffects;
+import net.haruzinho.medsandpills.effects.ModEffects;
 import net.haruzinho.medsandpills.itens.ModCreativeModeTabs;
 import net.haruzinho.medsandpills.itens.ModItems;
-import net.mcreator.medsandherbs.MedsAndHerbsMod;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;

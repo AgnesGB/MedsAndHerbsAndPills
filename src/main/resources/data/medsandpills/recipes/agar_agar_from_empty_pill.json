@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "meds_and_herbs:material_agar"
+    }
+  },
+
+  "result": {
+    "item": "medsandpills:empty_pill",
+    "count": 16
+  }
+}

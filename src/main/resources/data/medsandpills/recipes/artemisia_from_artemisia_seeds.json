@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "meds_and_herbs:artemisia_leaves"
+    }
+  ],
+  "result": {
+    "item": "meds_and_herbs:artemisia_seeds",
+    "count": 1
+  }
+}

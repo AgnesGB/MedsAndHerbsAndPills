@@ -2,9 +2,9 @@ Documentação de Efeitos de Sintomas
 
 ### 1. Dor (Pain)
 
-- **Efeito:** Causa o efeito de **Fraqueza** (*Weakness*) no jogador.
-- **Partículas:** Não há partículas visíveis para esse efeito.
-- **Descrição:** Representa a dor sentida pelo jogador. Esse sintoma reduz a eficácia das ações do jogador, como atacar e minerar.
+- **Efeito:** Causa redução de velocidade, dano, velocidade de ataque e pulo progressivos.
+- **Descrição:** Representa a dor sentida pelo jogador. Esse sintoma reduz a eficácia das ações do jogador.
+- 
 
 ### 2. Náusea (Nausea)
 

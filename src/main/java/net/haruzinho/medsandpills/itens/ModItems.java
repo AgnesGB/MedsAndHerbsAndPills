@@ -14,6 +14,11 @@ public class ModItems {
     public static final RegistryObject<Item> EMPTY_PILL = ITEMS.register("empty_pill",
             () -> new Item(new Item.Properties()));
 
+    //analgesico stuff
+
+    //plantas novas:
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

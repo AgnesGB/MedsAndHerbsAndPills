@@ -1,4 +1,4 @@
-package effects;
+package net.haruzinho.medsandpills.effects;
 
 import net.haruzinho.medsandpills.MedsAndPills;
 import net.minecraft.world.effect.MobEffect;
