@@ -5,6 +5,7 @@ import net.haruzinho.medsandpills.blocks.ModBlocks;
 import net.haruzinho.medsandpills.itens.custom.ExtractItem;
 import net.haruzinho.medsandpills.itens.custom.PainKillerPill;
 import net.haruzinho.medsandpills.itens.custom.PowderItem;
+import net.haruzinho.medsandpills.itens.custom.SyringeValerianItem;
 import net.mcreator.medsandherbs.item.ExtractHerbalItem;
 import net.mcreator.medsandherbs.procedures.ExtractsCMDCheckProcedure;
 import net.minecraft.client.renderer.item.ItemProperties;
@@ -36,6 +37,8 @@ public class ModItems {
             () -> new PowderItem());
     public static final RegistryObject<Item> VALERIAN_EXTRACT = ITEMS.register("valerian_extract",
             () -> new ExtractItem());
+    public static final RegistryObject<Item> SYRINGE_VALERIAN = ITEMS.register("valerian_extract",
+            () -> new SyringeValerianItem());
 
     //plantas novas:
     public static final RegistryObject<Item> VALERIAN_ROOTS = ITEMS.register("valerian_roots",
