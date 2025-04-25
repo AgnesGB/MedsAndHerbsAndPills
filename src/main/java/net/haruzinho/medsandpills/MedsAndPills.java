@@ -2,6 +2,7 @@ package net.haruzinho.medsandpills;
 
 import com.mojang.logging.LogUtils;
 import net.haruzinho.medsandpills.blocks.ModBlocks;
+import net.haruzinho.medsandpills.datagen.ModLootTableProvider;
 import net.haruzinho.medsandpills.effects.ModEffects;
 import net.haruzinho.medsandpills.itens.ModCreativeModeTabs;
 import net.haruzinho.medsandpills.itens.ModItems;
