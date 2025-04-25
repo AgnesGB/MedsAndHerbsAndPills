@@ -1,9 +1,12 @@
 package net.haruzinho.medsandpills;
 
 import com.mojang.logging.LogUtils;
+import net.haruzinho.medsandpills.blocks.ModBlocks;
 import net.haruzinho.medsandpills.effects.ModEffects;
 import net.haruzinho.medsandpills.itens.ModCreativeModeTabs;
 import net.haruzinho.medsandpills.itens.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +33,7 @@ public class MedsAndPills {
 
         ModItems.ITEMS.register(modEventBus);
         ModEffects.EFFECTS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -59,7 +63,7 @@ public class MedsAndPills {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.VALERIAN_CROP.get(), RenderType.cutout());
         }
     }
 }

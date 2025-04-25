@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "medsandpills:item/empty_pill"
+    "layer0": "medsandpills:item/analgesic_pill"
   }
 }

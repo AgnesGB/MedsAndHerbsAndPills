@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "medsandpills:block/valerian_stage0"
+  }
+}
